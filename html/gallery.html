@@ -1,0 +1,213 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/gallery.css">
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="../node_modules/blueimp-gallery/css/blueimp-gallery.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div id="navbar_placeholder">
+        <nav class="navbar">
+            <div class="brand-title">My Own Travel</div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                <li><a href="index.html">Pocetna</a></li>
+                <li><a href="aktuelnedestinacije.html">Aktuelne destinacije</a></li>
+                <li><a href="onama.html">O nama</a></li>
+                <li><a id="trenutna" href="gallery.html">Galerija</a></li>
+                <li><a href="forma.html">Pridruzi nam se!</a></li>
+                
+                </ul>
+            </div>
+        </nav>
+    </div>
+  
+    <div id="links">
+
+        <a href="../images/traveling1.jpg">
+            <img src="../images/traveling1.jpg"/>
+        </a>
+        <a href="../images/travel2.jpg">
+            <img src="../images/travel2.jpg"/>
+        </a>
+        <a href="../images/travel3.jpg">
+            <img src="../images/travel3.jpg"/>
+        </a>
+        <a href="../images/travel4.jpg">
+            <img src="../images/travel4.jpg"/>
+        </a>
+        <a href="../images/travel5.jpg">
+            <img src="../images/travel5.jpg"/>
+        </a>
+        <a href="../images/travel6.jpg">
+            <img src="../images/travel6.jpg"/>
+        </a>
+        <a href="../images/travel7.jpg">
+            <img src="../images/travel7.jpg"/>
+        </a>
+        <a href="../images/travel8.jpg">
+            <img src="../images/travel8.jpg"/>
+        </a>
+        <a href="../images/travel9.jpg">
+            <img src="../images/travel9.jpg"/>
+        </a>
+        <a href="../images/travel10.jpg">
+            <img src="../images/travel10.jpg"/>
+        </a>
+        <a href="../images/travel11.jpg">
+            <img src="../images/travel11.jpg"/>
+        </a>
+        <a href="../images/travel12.jpg">
+            <img src="../images/travel12.jpg"/>
+        </a>
+        <a href="../images/travel13.jpg">
+            <img src="../images/travel13.jpg"/>
+        </a>
+        <a href="../images/travel14.jpg">
+            <img src="../images/travel14.jpg"/>
+        </a>
+        <a href="../images/travel15.jpg">
+            <img src="../images/travel15.jpg"/>
+        </a>
+        <a href="../images/travel16.jpg">
+            <img src="../images/travel16.jpg"/>
+        </a>
+        <a href="../images/travel17.jpg">
+            <img src="../images/travel17.jpg"/>
+        </a>
+        <a href="../images/travel18.jpg">
+            <img src="../images/travel18.jpg"/>
+        </a>
+        <a href="../images/travel19.jpg">
+            <img src="../images/travel19.jpg"/>
+        </a>
+        <a href="../images/travel20.jpg">
+            <img src="../images/travel20.jpg"/>
+        </a>
+        <a href="../images/travel21.jpg">
+            <img src="../images/travel21.jpg"/>
+        </a>
+        <a href="../images/travel22.jpg">
+            <img src="../images/travel22.jpg"/>
+        </a>
+        <a href="../images/travel23.jpg">
+            <img src="../images/travel23.jpg"/>
+        </a>
+        <a href="../images/travel24.jpg">
+            <img src="../images/travel24.jpg"/>
+        </a>
+        <a href="../images/travel25.jpg">
+            <img src="../images/travel25.jpg"/>
+        </a>
+        <a href="../images/travel26.jpg">
+            <img src="../images/travel26.jpg"/>
+        </a>
+        <a href="../images/travel27.jpg">
+            <img src="../images/travel27.jpg"/>
+        </a>
+        <a href="../images/travel28.jpg">
+            <img src="../images/travel28.jpg"/>
+        </a>
+        <a href="../images/travel29.jpg">
+            <img src="../images/travel29.jpg"/>
+        </a>
+        <a href="../images/travel30.jpg">
+            <img src="../images/travel30.jpg"/>
+        </a>
+        <a href="../images/travel31.jpg">
+            <img src="../images/travel31.jpg"/>
+        </a>
+        <a href="../images/travel32.jpg">
+            <img src="../images/travel32.jpg"/>
+        </a>
+        <a href="../images/travel33.jpg">
+            <img src="../images/travel33.jpg"/>
+        </a>
+        <a href="../images/travel34.jpg">
+            <img src="../images/travel34.jpg"/>
+        </a>
+        <a href="../images/travel35.jpg">
+            <img src="../images/travel35.jpg"/>
+        </a>
+        <a href="../images/travel36.jpg">
+            <img src="../images/travel36.jpg"/>
+        </a>
+        <a href="../images/travel37.jpg">
+            <img src="../images/travel37.jpg"/>
+        </a>
+        <a href="../images/travel38.jpg">
+            <img src="../images/travel38.jpg"/>
+        </a>
+        <a href="../images/travel39.jpg">
+            <img src="../images/travel39.jpg"/>
+        </a>
+        <a href="../images/travel40.jpg">
+            <img src="../images/travel40.jpg"/>
+        </a>
+
+      </div>
+        <!-- The Gallery as lightbox dialog, should be a document body child element -->
+            <div
+            id="blueimp-gallery"
+            class="blueimp-gallery"
+            aria-label="image gallery"
+            aria-modal="true"
+            role="dialog"
+            >
+            <div class="slides" aria-live="polite"></div>
+            <h3 class="title"></h3>
+            <a
+            class="prev"
+            aria-controls="blueimp-gallery"
+            aria-label="previous slide"
+            aria-keyshortcuts="ArrowLeft"
+            ></a>
+            <a
+            class="next"
+            aria-controls="blueimp-gallery"
+            aria-label="next slide"
+            aria-keyshortcuts="ArrowRight"
+            ></a>
+            <a
+            class="close"
+            aria-controls="blueimp-gallery"
+            aria-label="close"
+            aria-keyshortcuts="Escape"
+            ></a>
+            <a
+            class="play-pause"
+            aria-controls="blueimp-gallery"
+            aria-label="play slideshow"
+            aria-keyshortcuts="Space"
+            aria-pressed="false"
+            role="button"
+            ></a>
+            <ol class="indicator"></ol>
+            </div>
+
+    
+    <div class="row_footer" id="footer">
+
+    </div>
+    <script>
+        document.getElementById('links').onclick = function (event) {
+          event = event || window.event
+          var target = event.target || event.srcElement
+          var link = target.src ? target.parentNode : target
+          var options = { index: link, event: event }
+          var links = this.getElementsByTagName('a')
+          blueimp.Gallery(links, options)
+        }
+      </script> 
+    <script src="../node_modules/blueimp-gallery/js/blueimp-gallery.min.js"></script>
+    <script src="../js/footer.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

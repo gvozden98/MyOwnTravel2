@@ -1,0 +1,33 @@
+/* footer */
+body {
+  margin-bottom: 60px;
+}
+.row_footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(252, 240, 252);
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+.column {
+  padding: 5px;
+  margin: 5px;
+}
+.column img {
+  height: 40px;
+}
+.column img:hover {
+  transform: scale(1.1);
+}
+.broj:hover {
+  transform: scale(1.7);
+}
+.column p {
+  font-size: 12px;
+}
+/* footer */
