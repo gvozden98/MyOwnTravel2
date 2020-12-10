@@ -84,4 +84,4 @@ $(document).ready(function(){
     });
 });
 ```
-
+Sa obzirom da postoje neki problemi sa hostovanjem stranice preko github pages opcije, https://gvozden98.github.io/MyOwnTravel2/html/index.html ovaj link bi trebalo da radi.
